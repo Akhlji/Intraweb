@@ -1,0 +1,47 @@
+object IWForm1: TIWForm1
+  Left = 0
+  Top = 0
+  Width = 555
+  Height = 400
+  RenderInvisibleControls = True
+  AllowPageAccess = True
+  ConnectionMode = cmAny
+  Background.Fixed = False
+  HandleTabs = False
+  LeftToRight = True
+  LockUntilLoaded = True
+  LockOnSubmit = True
+  ShowHint = True
+  DesignLeft = 2
+  DesignTop = 2
+  object IWLabel1: TIWLabel
+    AlignWithMargins = False
+    Left = 96
+    Top = 128
+    Width = 101
+    Height = 17
+    HasTabOrder = False
+    FriendlyName = 'IWLabel1'
+    Caption = 'Your input text :'
+  end
+  object IWEdit1: TIWEdit
+    AlignWithMargins = False
+    Left = 96
+    Top = 151
+    Width = 200
+    Height = 32
+    StyleRenderOptions.RenderBorder = False
+    FriendlyName = 'IWEdit1'
+    ScriptEvents = <
+      item
+        EventCode.Strings = (
+          'var charCode = (event.which) ? event.which : event.keyCode;'
+          ''
+          'if (charCode > 31 && (charCode < 48 || charCode > 57))'
+          '    return false;'
+          '  return true;')
+        Event = 'onKeyPress'
+      end>
+    SubmitOnAsyncEvent = True
+  end
+end

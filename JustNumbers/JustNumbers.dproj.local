@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/08/28 12:59:23.000.250,=E:\Jobs\SampleCodes\JustNumbers\Unit1.pas</Transaction>
+    <Transaction>2023/08/28 12:59:23.000.500,=E:\Jobs\SampleCodes\JustNumbers\ServerController.pas</Transaction>
+    <Transaction>2023/08/28 12:59:23.000.593,=E:\Jobs\SampleCodes\JustNumbers\UserSessionUnit.pas</Transaction>
+    <Transaction>2023/08/28 13:00:18.000.360,E:\Jobs\SampleCodes\JustNumbers\JustNumbers.dproj=E:\Jobs\SampleCodes\JustNumbers\JustNumbers.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
